@@ -11,7 +11,7 @@ export default function home() {
           <div class="col-lg-11 offset-lg-1">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
               <a class="navbar-brand" href="index.html">
-                <img src="assets.images/logo.png" alt="" />
+                <img src="assets/images/logo.png" alt="" />
                 <span>
                   Uliya
                 </span>
@@ -158,7 +158,332 @@ export default function home() {
 
   </div>
 
+<section class="about_section layout_padding">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        About Studio
+      </h2>
+    </div>
+    <div class="box">
+      <div class="img-box">
+        <img src="assets/images/about-img.jpg" alt="" />
+        <div class="about_img-bg">
+          <img src="assets/images/about-img-bg.png" alt="" />
+        </div>
+      </div>
+      <div class="detail-box">
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when
+          looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters,
+        </p>
+        <div>
+          <a href="">
+            about More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
+</section>
+<section class="portfolio_section layout_padding">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Our portfolio
+      </h2>
+      <p>
+        minim veniam, quis nostrud exercitation ullamco laboris nisi
+      </p>
+    </div>
+    <div class="portfolio_container layout_padding2">
+      <div class="box-1">
+        <div class="img-box b-1">
+          <img src="assets/images/p-1.jpg" alt="" />
+          <div class="btn-box">
+            <a href="" class="btn-1">
+
+            </a>
+          </div>
+        </div>
+        <div class="img-box b-2">
+          <img src="assets/images/p-2.jpg" alt="" />
+          <div class="btn-box">
+            <a href="" class="btn-1">
+
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="box-2-top">
+          <div class="img-box b-3">
+            <img src="assets/images/p-3.jpg" alt="" />
+            <div class="btn-box">
+              <a href="" class="btn-1">
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box-2-top2">
+          <div class="img-box b-4">
+            <img src="assets/images/p-4.jpg" alt="" />
+            <div class="btn-box">
+              <a href="" class="btn-1">
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box-2-btm">
+          <div class="img-box b-5">
+            <img src="assets/images/p-5.jpg" alt="" />
+            <div class="btn-box">
+              <a href="" class="btn-1">
+
+              </a>
+            </div>
+          </div>
+          <div class="img-box b-6">
+            <img src="assets/images/p-6.jpg" alt="" />
+            <div class="btn-box">
+              <a href="" class="btn-1">
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="see_btn">
+      <a href="">
+        See More
+      </a>
+    </div>
+  </div>
+
+</section>
+<section class="achieve_section layout_padding">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        ACHIEVEMENTS
+      </h2>
+      <p>
+        minim veniam, quis nostrud exercitation ullamco laboris nisi
+      </p>
+    </div>
+    <div class="achieve_container">
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/images/a-1.png" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            1000+
+          </h2>
+          <h6>
+            Photo Session
+          </h6>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/images/a-2.png" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            9000+
+          </h2>
+          <h6>
+            Happy Customers
+          </h6>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="assets/images/a-3.png" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            1000+
+          </h2>
+          <h6>
+            Archive Photographs
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="client_section layout_padding-bottom">
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Testimonial
+      </h2>
+      <p>
+        minim veniam, quis nostrud exercitation ullamco laboris nisi
+      </p>
+    </div>
+    <div class="layout_padding2-top">
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="btn_container">
+              <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9 col-lg-8">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="detail-box">
+                  <h4>
+                    Aloz den
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="detail-box">
+                  <h4>
+                    Aloz den
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="detail-box">
+                  <h4>
+                    Aloz den
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact_section layout_padding">
+  <div class="bg-img1">
+    <img src="assets/images/bg-img-1.png" alt="" />
+  </div>
+  <div class="bg-img2">
+    <img src="assets/images/bg-img-2.png" alt="" />
+  </div>
+  <div class="container">
+    <div class="heading_container">
+      <h2>
+        Contact Us
+      </h2>
+    </div>
+    <div class="">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form action="">
+            <div class="contact_form-container">
+              <div>
+                <div>
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div>
+                  <input type="text" placeholder="Phone Number" />
+                </div>
+                <div>
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div class="">
+                  <input type="text" placeholder="Message" class="message_input" />
+                </div>
+                <div class=" d-flex justify-content-center ">
+                  <button type="submit">
+                    Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="info_section ">
+  <div class="container">
+    <div class="info_container">
+      <div class="info_social">
+        <div class="d-flex justify-content-center">
+          <h4 class="">
+            Follow on
+          </h4>
+        </div>
+        <div class="social_box">
+          <a href="">
+            <img src="assets/images/fb.png" alt="" />
+          </a>
+          <a href="">
+            <img src="assets/images/twitter.png" alt="" />
+          </a>
+          <a href="">
+            <img src="assets/images/instagram.png" alt="" />
+          </a>
+          <a href="">
+            <img src="assets/images/linkedin.png" alt="" />
+          </a>
+          <a href="">
+            <img src="assets/images/dribble.png" alt="" />
+          </a>
+          <a href="">
+            <img src="assets/images/pinterest.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid footer_section">
+  <div class="container">
+    <p>
+      &copy; 2019 All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </div>
+</section>
 
  
     </React.Fragment >
