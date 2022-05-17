@@ -1,45 +1,46 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function home() {
     return (
     <React.Fragment>
-        <div class="hero_area">
+        <div className="hero_area">
 
-    <header class="header_section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-11 offset-lg-1">
-            <nav class="navbar navbar-expand-lg custom_nav-container ">
-              <a class="navbar-brand" href="index.html">
+    <header className="header_section">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-11 offset-lg-1">
+            <nav className="navbar navbar-expand-lg custom_nav-container ">
+              <Link className="navbar-brand" to="/">
                 <img src="assets/images/logo.png" alt="" />
                 <span>
                   Uliya
                 </span>
-              </a>
+                </Link>
           
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                  <ul class="navbar-nav  ">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul className="navbar-nav  ">
+                    <li className="nav-item active">
+                      <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html"> About</a>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/about">About</Link>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/portfolio">Portfolio</Link>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/contact">Contact Us</Link>
                     </li>
                   </ul>
-                  <form class="form-inline">
-                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                  <form className="form-inline">
+                    <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
                   </form>
                 </div>
 
@@ -50,14 +51,14 @@ export default function home() {
       </div>
     </header>
    
-    <section class=" slider_section position-relative">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-5 offset-md-1 ">
-                  <div class="detail_box">
+    <section className=" slider_section position-relative">
+      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-5 offset-md-1 ">
+                  <div className="detail_box">
                     <h1>
                       photography <br/>
                       studio
@@ -65,29 +66,29 @@ export default function home() {
                     <p>
                       It is a long established fact that a reader will be distracted by the readable content
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
+                    <div className="btn-box">
+                      <a href="" className="btn-1">
                         About Us
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="" className="btn-2">
                         Get A Quote
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
-                  <div class="img-box">
+                <div className="col-md-6 px-0">
+                  <div className="img-box">
                     <img src="assets/images/slider-img.jpg" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-5 offset-md-1">
-                  <div class="detail_box">
+          <div className="carousel-item">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-5 offset-md-1">
+                  <div className="detail_box">
                     <h1>
                       photography <br/>
                       studio
@@ -95,29 +96,29 @@ export default function home() {
                     <p>
                       It is a long established fact that a reader will be distracted by the readable content
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
+                    <div className="btn-box">
+                      <a href="" className="btn-1">
                         About Us
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="" className="btn-2">
                         Get A Quote
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
-                  <div class="img-box">
+                <div className="col-md-6 px-0">
+                  <div className="img-box">
                     <img src="assets/images/slider-img.jpg" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-5 offset-md-1">
-                  <div class="detail_box">
+          <div className="carousel-item">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-5 offset-md-1">
+                  <div className="detail_box">
                     <h1>
                       photography <br/>
                       studio
@@ -125,18 +126,18 @@ export default function home() {
                     <p>
                       It is a long established fact that a reader will be distracted by the readable content
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
+                    <div className="btn-box">
+                      <a href="" className="btn-1">
                         About Us
                       </a>
-                      <a href="" class="btn-2">
+                      <a href="" className="btn-2">
                         Get A Quote
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
-                  <div class="img-box">
+                <div className="col-md-6 px-0">
+                  <div className="img-box">
                     <img src="images/slider-img.jpg" alt="" />
                   </div>
                 </div>
@@ -144,12 +145,12 @@ export default function home() {
             </div>
           </div>
         </div>
-        <div class="carousel_btn-container">
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
+        <div className="carousel_btn-container">
+          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
+          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </div>
@@ -158,21 +159,21 @@ export default function home() {
 
   </div>
 
-<section class="about_section layout_padding">
-  <div class="container">
-    <div class="heading_container">
+<section className="about_section layout_padding">
+  <div className="container">
+    <div className="heading_container">
       <h2>
         About Studio
       </h2>
     </div>
-    <div class="box">
-      <div class="img-box">
+    <div className="box">
+      <div className="img-box">
         <img src="assets/images/about-img.jpg" alt="" />
-        <div class="about_img-bg">
+        <div className="about_img-bg">
           <img src="assets/images/about-img-bg.png" alt="" />
         </div>
       </div>
-      <div class="detail-box">
+      <div className="detail-box">
         <p>
           It is a long established fact that a reader will be distracted by the readable content of a page when
           looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -188,9 +189,9 @@ export default function home() {
   </div>
 
 </section>
-<section class="portfolio_section layout_padding">
-  <div class="container">
-    <div class="heading_container">
+<section className="portfolio_section layout_padding">
+  <div className="container">
+    <div className="heading_container">
       <h2>
         Our portfolio
       </h2>
@@ -198,59 +199,59 @@ export default function home() {
         minim veniam, quis nostrud exercitation ullamco laboris nisi
       </p>
     </div>
-    <div class="portfolio_container layout_padding2">
-      <div class="box-1">
-        <div class="img-box b-1">
+    <div className="portfolio_container layout_padding2">
+      <div className="box-1">
+        <div className="img-box b-1">
           <img src="assets/images/p-1.jpg" alt="" />
-          <div class="btn-box">
-            <a href="" class="btn-1">
+          <div className="btn-box">
+            <a href="" className="btn-1">
 
             </a>
           </div>
         </div>
-        <div class="img-box b-2">
+        <div className="img-box b-2">
           <img src="assets/images/p-2.jpg" alt="" />
-          <div class="btn-box">
-            <a href="" class="btn-1">
+          <div className="btn-box">
+            <a href="" className="btn-1">
 
             </a>
           </div>
         </div>
       </div>
-      <div class="box-2">
-        <div class="box-2-top">
-          <div class="img-box b-3">
+      <div className="box-2">
+        <div className="box-2-top">
+          <div className="img-box b-3">
             <img src="assets/images/p-3.jpg" alt="" />
-            <div class="btn-box">
-              <a href="" class="btn-1">
+            <div className="btn-box">
+              <a href="" className="btn-1">
 
               </a>
             </div>
           </div>
         </div>
-        <div class="box-2-top2">
-          <div class="img-box b-4">
+        <div className="box-2-top2">
+          <div className="img-box b-4">
             <img src="assets/images/p-4.jpg" alt="" />
-            <div class="btn-box">
-              <a href="" class="btn-1">
+            <div className="btn-box">
+              <a href="" className="btn-1">
 
               </a>
             </div>
           </div>
         </div>
-        <div class="box-2-btm">
-          <div class="img-box b-5">
+        <div className="box-2-btm">
+          <div className="img-box b-5">
             <img src="assets/images/p-5.jpg" alt="" />
-            <div class="btn-box">
-              <a href="" class="btn-1">
+            <div className="btn-box">
+              <a href="" className="btn-1">
 
               </a>
             </div>
           </div>
-          <div class="img-box b-6">
+          <div className="img-box b-6">
             <img src="assets/images/p-6.jpg" alt="" />
-            <div class="btn-box">
-              <a href="" class="btn-1">
+            <div className="btn-box">
+              <a href="" className="btn-1">
 
               </a>
             </div>
@@ -258,7 +259,7 @@ export default function home() {
         </div>
       </div>
     </div>
-    <div class="see_btn">
+    <div className="see_btn">
       <a href="">
         See More
       </a>
@@ -266,9 +267,9 @@ export default function home() {
   </div>
 
 </section>
-<section class="achieve_section layout_padding">
-  <div class="container">
-    <div class="heading_container">
+<section className="achieve_section layout_padding">
+  <div className="container">
+    <div className="heading_container">
       <h2>
         ACHIEVEMENTS
       </h2>
@@ -276,12 +277,12 @@ export default function home() {
         minim veniam, quis nostrud exercitation ullamco laboris nisi
       </p>
     </div>
-    <div class="achieve_container">
-      <div class="box">
-        <div class="img-box">
+    <div className="achieve_container">
+      <div className="box">
+        <div className="img-box">
           <img src="assets/images/a-1.png" alt="" />
         </div>
-        <div class="detail-box">
+        <div className="detail-box">
           <h2>
             1000+
           </h2>
@@ -290,11 +291,11 @@ export default function home() {
           </h6>
         </div>
       </div>
-      <div class="box">
-        <div class="img-box">
+      <div className="box">
+        <div className="img-box">
           <img src="assets/images/a-2.png" alt="" />
         </div>
-        <div class="detail-box">
+        <div className="detail-box">
           <h2>
             9000+
           </h2>
@@ -303,11 +304,11 @@ export default function home() {
           </h6>
         </div>
       </div>
-      <div class="box">
-        <div class="img-box">
+      <div className="box">
+        <div className="img-box">
           <img src="assets/images/a-3.png" alt="" />
         </div>
-        <div class="detail-box">
+        <div className="detail-box">
           <h2>
             1000+
           </h2>
@@ -319,9 +320,9 @@ export default function home() {
     </div>
   </div>
 </section>
-<section class="client_section layout_padding-bottom">
-  <div class="container">
-    <div class="heading_container">
+<section className="client_section layout_padding-bottom">
+  <div className="container">
+    <div className="heading_container">
       <h2>
         Testimonial
       </h2>
@@ -329,23 +330,23 @@ export default function home() {
         minim veniam, quis nostrud exercitation ullamco laboris nisi
       </p>
     </div>
-    <div class="layout_padding2-top">
-      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="btn_container">
-              <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-                <span class="sr-only">Previous</span>
+    <div className="layout_padding2-top">
+      <div id="carouselExample2Controls" className="carousel slide" data-ride="carousel">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="btn_container">
+              <a className="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+                <span className="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-                <span class="sr-only">Next</span>
+              <a className="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
-          <div class="col-md-9 col-lg-8">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="detail-box">
+          <div className="col-md-9 col-lg-8">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="detail-box">
                   <h4>
                     Aloz den
                   </h4>
@@ -359,8 +360,8 @@ export default function home() {
                   </p>
                 </div>
               </div>
-              <div class="carousel-item ">
-                <div class="detail-box">
+              <div className="carousel-item ">
+                <div className="detail-box">
                   <h4>
                     Aloz den
                   </h4>
@@ -374,8 +375,8 @@ export default function home() {
                   </p>
                 </div>
               </div>
-              <div class="carousel-item ">
-                <div class="detail-box">
+              <div className="carousel-item ">
+                <div className="detail-box">
                   <h4>
                     Aloz den
                   </h4>
@@ -399,24 +400,24 @@ export default function home() {
   </div>
 </section>
 
-<section class="contact_section layout_padding">
-  <div class="bg-img1">
+<section className="contact_section layout_padding">
+  <div className="bg-img1">
     <img src="assets/images/bg-img-1.png" alt="" />
   </div>
-  <div class="bg-img2">
+  <div className="bg-img2">
     <img src="assets/images/bg-img-2.png" alt="" />
   </div>
-  <div class="container">
-    <div class="heading_container">
+  <div className="container">
+    <div className="heading_container">
       <h2>
         Contact Us
       </h2>
     </div>
-    <div class="">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
+    <div className="">
+      <div className="row">
+        <div className="col-md-8 mx-auto">
           <form action="">
-            <div class="contact_form-container">
+            <div className="contact_form-container">
               <div>
                 <div>
                   <input type="text" placeholder="Name" />
@@ -427,10 +428,10 @@ export default function home() {
                 <div>
                   <input type="email" placeholder="Email" />
                 </div>
-                <div class="">
-                  <input type="text" placeholder="Message" class="message_input" />
+                <div className="">
+                  <input type="text" placeholder="Message" className="message_input" />
                 </div>
-                <div class=" d-flex justify-content-center ">
+                <div className=" d-flex justify-content-center ">
                   <button type="submit">
                     Send
                   </button>
@@ -443,16 +444,16 @@ export default function home() {
     </div>
   </div>
 </section>
-<section class="info_section ">
-  <div class="container">
-    <div class="info_container">
-      <div class="info_social">
-        <div class="d-flex justify-content-center">
-          <h4 class="">
+<section className="info_section ">
+  <div className="container">
+    <div className="info_container">
+      <div className="info_social">
+        <div className="d-flex justify-content-center">
+          <h4 className="">
             Follow on
           </h4>
         </div>
-        <div class="social_box">
+        <div className="social_box">
           <a href="">
             <img src="assets/images/fb.png" alt="" />
           </a>
@@ -476,8 +477,8 @@ export default function home() {
     </div>
   </div>
 </section>
-<section class="container-fluid footer_section">
-  <div class="container">
+<section className="container-fluid footer_section">
+  <div className="container">
     <p>
       &copy; 2019 All Rights Reserved By
       <a href="https://html.design/">Free Html Templates</a>
